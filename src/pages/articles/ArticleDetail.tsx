@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { Card, Spin, Typography, Space, Image, Row } from 'antd'
 import { fetchTopHeadlines } from '../../api/articlesApi'
-import DefaultImage from "../../assets/empty-image.png"
+import DefaultImage from '../../assets/empty-image.png'
 import moment from 'moment'
 
 const { Text, Link } = Typography

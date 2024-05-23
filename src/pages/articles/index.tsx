@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { List, Card, Spin, Image, Button, Row, Typography } from 'antd'
 import { Link } from 'react-router-dom'
