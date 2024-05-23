@@ -1,0 +1,102 @@
+.title-page {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+
+  span {
+    color: #40a9ff;
+  }
+}
+
+.subtitle-page {
+  font-size: 1rem;
+  color: #666;
+  font-weight: 600;
+  margin-bottom: 2em;
+}
+
+.article-list {
+  margin-top: 2em;
+  width: 100%;
+}
+
+.article-card {
+  width: 100%;
+  border-radius: 15px;
+  background: #fbfbfb;
+  box-shadow: -9px -9px 16px rgba(255, 255, 255, 1), 9px 9px 16px rgba(163, 177, 198, 0.3);
+  transition: all ease-in-out 0.3s;
+  min-height: 100%;
+  margin-bottom: 3em;
+
+  .ant-card-head {
+    background-color: #f0f2f5;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .ant-card-body {
+    padding: 24px;
+  }
+
+  .ant-card-meta-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .ant-card-meta-description {
+    max-height: 3em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .ant-card-cover .ant-image > img {
+    object-fit: cover;
+    height: 180px !important;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .ant-typography {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .detail-image {
+    max-width: 100%;
+    margin-bottom: 20;
+    border-radius: 5;
+  }
+
+  .detail-key {
+    font-size: 1.1rem;
+    margin-right: 0.5rem;
+  }
+}
+
+.button-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 60px !important;
+  border-radius: 30px;
+  border-style: none;
+  background: #40a9ff;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.1), -8px -8px 18px 0 rgba(255, 255, 255, 1);
+  transition: all 0.3s ease 0s;
+
+  &:hover {
+    background: transparent;
+    border: 1px solid #40a9ff;
+    color: #40a9ff;
+  }
+}
